@@ -1,0 +1,277 @@
+{
+    "questions": [
+      {
+        "content_table_id": "1",
+        "name_savol": "Turar joy kimning mulki?"
+      },
+      {
+        "content_table_id": "2",
+        "name_savol": "Turar joy"
+      },
+      {
+        "content_table_id": "10",
+        "name_savol": "Qurilgan vaqti"
+      },
+      {
+        "content_table_id": "14",
+        "name_savol": "Suv ta'minoti"
+      },
+      {
+        "content_table_id": "15",
+        "name_savol": "Hojatxona"
+      },
+      {
+        "content_table_id": "16",
+        "name_savol": "Isitish tizimi"
+      },
+      {
+        "content_table_id": "17",
+        "name_savol": "Gaz ta'minoti"
+      },
+      {
+        "content_table_id": "18",
+        "name_savol": "Issiq suv ta'minoti"
+      },
+      {
+        "content_table_id": "19",
+        "name_savol": "Kanalizatsiya tizimi"
+      },
+      {
+        "content_table_id": "20",
+        "name_savol": "Yuvinish joyi"
+      },
+      {
+        "content_table_id": "20",
+        "name_savol": "Yuvinish joyi"
+      },
+      {
+        "content_table_id": "21",
+        "name_savol": "Электричество"
+      },
+      {
+        "content_table_id": "22",
+        "name_savol": "доступ к сети Интернет"
+      },
+      {
+        "content_table_id": "23",
+        "name_savol": "Chiqindilarni markazlashtirilgan yig'ish xizmati"
+      },
+      {
+        "content_table_id": "24",
+        "name_savol": "Электрическая плита для многоквартирных жилых домов где отсутствует газ)"
+      },
+      {
+        "content_table_id": "25",
+        "name_savol": "Uy xo'jaligi boshlig'i yoki boshqa a'zolari nomida boshqa uy-joy bormi?"
+      },
+      {
+        "content_table_id": "26",
+        "name_savol": "Uy xo'jaligida birinchi ko'rsatilgan shaxs bilan qarindoshlik munosabati"
+      },
+      {
+        "content_table_id": "27",
+        "name_savol": "Aholini ro'yxatga olish vaqtida qayerda yashaydi"
+      },
+      {
+        "content_table_id": "28",
+        "name_savol": "Ushbu joyda doimiy, vaqtinchalik yashaydi yoki vaqtinchalik yashamaydi"
+      },
+      {
+        "content_table_id": "29",
+        "name_savol": "Ushbu joyda vaqtinchalik yashamaslik sababi"
+      },
+      {
+        "content_table_id": "30",
+        "name_savol": "Tug'ilgan joyingiz"
+      },
+      {
+        "content_table_id": "31",
+        "name_savol": "Mazkur aholi punktida tug'ilganingizdan beri yashaysizmi?"
+      },
+      {
+        "content_table_id": "32",
+        "name_savol": "Qachon ko'chib keldingiz?"
+      },
+      {
+        "content_table_id": "33",
+        "name_savol": "Oxirgi doimiy yashagan joyingiz?"
+      },
+      {
+        "content_table_id": "34",
+        "name_savol": "Boshqa mamlakatda 1991-yil sentabr oyidan keyin uzluksiz bir yil va undan ortiq muddatda yashaganmisiz (bo'lganmisiz)?"
+      },
+      {
+        "content_table_id": "35",
+        "name_savol": "Qaysi xorijiy mamlakatda bo'lgansiz?"
+      },
+      {
+        "content_table_id": "36",
+        "name_savol": "O'zbekiston Respublikasidan nima maqsadda ketgansiz?"
+      },
+      {
+        "content_table_id": "37",
+        "name_savol": "Nikoh qurganmisiz?"
+      },
+      {
+        "content_table_id": "38",
+        "name_savol": "Nikoh holatingiz?"
+      },
+      {
+        "content_table_id": "39",
+        "name_savol": "Fuqaroligingiz?"
+      },
+      {
+        "content_table_id": "40",
+        "name_savol": "Siz majburiy ko'chirilgan yoki qochoq (maqomida) emasmisiz?"
+      },
+      {
+        "content_table_id": "41",
+        "name_savol": "Millatingiz"
+      },
+      {
+        "content_table_id": "42",
+        "name_savol": "Ona tilingiz?"
+      },
+      {
+        "content_table_id": "43",
+        "name_savol": "Qaysi tillarda suhbatlasha olasiz?"
+      },
+      {
+        "content_table_id": "44",
+        "name_savol": "Sport bilan shug'ullanasizmi?"
+      },
+      {
+        "content_table_id": "45",
+        "name_savol": "Sport bilan qayerda shug'ullanasiz?"
+      },
+      {
+        "content_table_id": "46",
+        "name_savol": "Nima sababdan sport bilan shug'ullanmaysiz?"
+      },
+      {
+        "content_table_id": "47",
+        "name_savol": "Ta'lim darajangiz"
+      },
+      {
+        "content_table_id": "48",
+        "name_savol": "Yashash uchun daromad manbalaringizni ko'rsating"
+      },
+      {
+        "content_table_id": "49",
+        "name_savol": "Bir oydagi daromadingiz qancha?"
+      },
+      {
+        "content_table_id": "50",
+        "name_savol": "Joriy yilning 24-31 oktabr kunlari ish haqi to'lanadigan yoki daromad keltiradigan ish bilan mashg'ul bo'lganmisiz?"
+      },
+      {
+        "content_table_id": "51",
+        "name_savol": "Qayerda asosiy  mehnat faoliyatingizni olib borasiz (qayerda ishlaysiz)?"
+      },
+      {
+        "content_table_id": "52",
+        "name_savol": "Asosiy ish joyingizda kim bo'lib ishlagansiz?"
+      },
+      {
+        "content_table_id": "53",
+        "name_savol": "Asosiy ish joyingiz qayerda joylashgan?"
+      },
+      {
+        "content_table_id": "54",
+        "name_savol": "Joriy yilning oktabr oyida ish izlaganmisiz?"
+      },
+      {
+        "content_table_id": "55",
+        "name_savol": "Agar sizga ish taklif etilsa, 2 hafta mobaynida ishga kirishgan bo'lar edingizmi?"
+      },
+      {
+        "content_table_id": "56",
+        "name_savol": "Ish izlamaslik yoki taklif etilgan ishga kirishmaslik sababini ko'rsating"
+      },
+      {
+        "content_table_id": "57",
+        "name_savol": "Oliy ta'lim daraja turi"
+      },
+      {
+        "content_table_id": "58",
+        "name_savol": "O'qish va/yoki yozishni bilasizmi?"
+      },
+      {
+        "content_table_id": "59",
+        "name_savol": "Ilmiy darajangiz bormi?"
+      },
+      {
+        "content_table_id": "60",
+        "name_savol": "Ilmiy daraja turlari"
+      },
+      {
+        "content_table_id": "61",
+        "name_savol": "Bola bog'chaga boradimi?"
+      },
+      {
+        "content_table_id": "62",
+        "name_savol": "Maktabgacha ta'lim tashkiloti turi"
+      },
+      {
+        "content_table_id": "63",
+        "name_savol": "Hozirda ta'lim olasizmi?"
+      },
+      {
+        "content_table_id": "64",
+        "name_savol": "Ta'lim turi"
+      },
+      {
+        "content_table_id": "65",
+        "name_savol": "O'zbekistonga kelishdan maqsadi"
+      },
+      {
+        "content_table_id": "66",
+        "name_savol": "Muassasa turi"
+      },
+      {
+        "content_table_id": "67",
+        "name_savol": "2-shakl savolnomasi kimning javobi asosida to'ldirildi"
+      },
+      {
+        "content_table_id": "68",
+        "name_savol": "Doimiy yashagan joyingizda kim bilan yashagansiz"
+      },
+      {
+        "content_table_id": "69",
+        "name_savol": "Ushbu respondentning ma'lumotlari doimiy yashagan joydagi"
+      },
+      {
+        "content_table_id": "70",
+        "name_savol": "Jinsi"
+      },
+      {
+        "content_table_id": "71",
+        "name_savol": "Ushbu muassasada"
+      },
+      {
+        "content_table_id": "72",
+        "name_savol": "Bino va xonadon raqami ma’lum"
+      },
+      {
+        "content_table_id": "73",
+        "name_savol": "Markaziy suv tizimga ulangan"
+      },
+      {
+        "content_table_id": "74",
+        "name_savol": "Suv bilan yuviladigan"
+      },
+      {
+        "content_table_id": "414",
+        "name_savol": "Ko'chib o'tilgan vaqtlar"
+      },
+      {
+        "content_table_id": "415",
+        "name_savol": "Til nomini yozing"
+      },
+      {
+        "content_table_id": "416",
+        "name_savol": "Millatlar klassifikatori"
+      }
+    ]
+  }
+  

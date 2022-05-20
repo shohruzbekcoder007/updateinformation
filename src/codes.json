@@ -1,0 +1,1869 @@
+{
+  "Z1": [
+    {
+      "content_table_id": "1",
+      "name_savol": "Turar joy kimning mulki?",
+      "answers": [
+        {
+          "name": "Ijaraga olingan",
+          "id": "4",
+          "name_uz": "Ijaraga olingan"
+        },
+        {
+          "name": "Boshqa",
+          "id": "5",
+          "name_uz": "Boshqa"
+        },
+        {
+          "name": "Nodavlat yuridik shaxs mulki",
+          "id": "3",
+          "name_uz": "Nodavlat yuridik shaxs mulki"
+        },
+        {
+          "name": "Shaxsiy mulk",
+          "id": "2",
+          "name_uz": "Shaxsiy mulk"
+        },
+        {
+          "name": "Davlat mulki",
+          "id": "1",
+          "name_uz": "Davlat mulki"
+        },
+        {
+          "name": "Ko'p kvartirali uydagi xonadon",
+          "id": "7",
+          "name_uz": "Ko'p kvartirali uydagi xonadon"
+        },
+        {
+          "name": "Boshqa turdagi turar joy",
+          "id": "13",
+          "name_uz": "Boshqa turdagi turar joy"
+        },
+        {
+          "name": "Yashash uchun foydalaniladigan noturar joy",
+          "id": "12",
+          "name_uz": "Yashash uchun foydalaniladigan noturar joy"
+        },
+        {
+          "name": "Mehmonxona (Uy mehmonxona), xostel",
+          "id": "11",
+          "name_uz": "Mehmonxona (Uy mehmonxona), xostel"
+        },
+        {
+          "name": "Talabalar yotoqxonasi",
+          "id": "10",
+          "name_uz": "Talabalar yotoqxonasi"
+        },
+        {
+          "name": "Yotoqxonalar (talabalar yotoqxonasidan tashqari)",
+          "id": "9",
+          "name_uz": "Yotoqxonalar (talabalar yotoqxonasidan tashqari)"
+        },
+        {
+          "name": "Hovli",
+          "id": "6",
+          "name_uz": "Hovli"
+        },
+        {
+          "name": "Dala hovli",
+          "id": "8",
+          "name_uz": "Dala hovli"
+        }
+      ]
+    },
+    {
+      "content_table_id": "2",
+      "name_savol": "Turar joy",
+      "answers": [
+        {
+          "name": "Ko'p kvartirali uydagi xonadon",
+          "id": "7",
+          "name_uz": "Ko'p kvartirali uydagi xonadon"
+        },
+        {
+          "name": "Boshqa turdagi turar joy",
+          "id": "13",
+          "name_uz": "Boshqa turdagi turar joy"
+        },
+        {
+          "name": "Yashash uchun foydalaniladigan noturar joy",
+          "id": "12",
+          "name_uz": "Yashash uchun foydalaniladigan noturar joy"
+        },
+        {
+          "name": "Mehmonxona (Uy mehmonxona), xostel",
+          "id": "11",
+          "name_uz": "Mehmonxona (Uy mehmonxona), xostel"
+        },
+        {
+          "name": "Talabalar yotoqxonasi",
+          "id": "10",
+          "name_uz": "Talabalar yotoqxonasi"
+        },
+        {
+          "name": "Yotoqxonalar (talabalar yotoqxonasidan tashqari)",
+          "id": "9",
+          "name_uz": "Yotoqxonalar (talabalar yotoqxonasidan tashqari)"
+        },
+        {
+          "name": "Hovli",
+          "id": "6",
+          "name_uz": "Hovli"
+        },
+        {
+          "name": "Dala hovli",
+          "id": "8",
+          "name_uz": "Dala hovli"
+        }
+      ]
+    },
+    {
+      "content_table_id": "10",
+      "name_savol": "Qurilgan vaqti",
+      "answers": [
+        {
+          "name": "2000-2009 yy.",
+          "id": "34",
+          "name_uz": "2000-2009 yy."
+        },
+        {
+          "name": "Noma'lum",
+          "id": "37",
+          "name_uz": "Noma'lum"
+        },
+        {
+          "name": "1990-1999 yy.",
+          "id": "33",
+          "name_uz": "1990-1999 yy."
+        },
+        {
+          "name": "2017 yildan keyin",
+          "id": "36",
+          "name_uz": "2017 yildan keyin"
+        },
+        {
+          "name": "1970-1979 yy.",
+          "id": "31",
+          "name_uz": "1970-1979 yy."
+        },
+        {
+          "name": "1980-1989 yy.",
+          "id": "32",
+          "name_uz": "1980-1989 yy."
+        },
+        {
+          "name": "1966-1969 yy.",
+          "id": "30",
+          "name_uz": "1966-1969 yy."
+        },
+        {
+          "name": "1966-yilgacha",
+          "id": "29",
+          "name_uz": "1966-yilgacha"
+        },
+        {
+          "name": "2010-2016 yy",
+          "id": "35",
+          "name_uz": "2010-2016 yy"
+        },
+        {
+          "name": "Aniq qurilgan yili",
+          "id": "28",
+          "name_uz": "Aniq qurilgan yili"
+        }
+      ]
+    },
+    {
+      "content_table_id": "13",
+      "name_savol": "Tashqi devorlarning asosiy materiali",
+      "answers": [
+        {
+          "name": "Aralash material",
+          "id": "44",
+          "name_uz": "Aralash material"
+        },
+        {
+          "name": "Boshqa material",
+          "id": "45",
+          "name_uz": "Boshqa material"
+        },
+        {
+          "name": "Yog'och/taxta",
+          "id": "43",
+          "name_uz": "Yog'och/taxta"
+        },
+        {
+          "name": "Tosh",
+          "id": "42",
+          "name_uz": "Tosh"
+        },
+        {
+          "name": "Blok (pena, gaza, va boshqa)",
+          "id": "41",
+          "name_uz": "Blok (pena, gaza, va boshqa)"
+        },
+        {
+          "name": "Paxsa",
+          "id": "40",
+          "name_uz": "Paxsa"
+        },
+        {
+          "name": "Beton (monolit)",
+          "id": "39",
+          "name_uz": "Beton (monolit)"
+        },
+        {
+          "name": "Xom g'isht",
+          "id": "38",
+          "name_uz": "Xom g'isht"
+        }
+      ]
+    },
+    {
+      "content_table_id": "14",
+      "name_savol": "Suv ta'minoti",
+      "answers": [
+        {
+          "name": "Boshqa turdagi (quduq, bosma kran, buloq)",
+          "id": "49",
+          "name_uz": "Boshqa turdagi (quduq, bosma kran, buloq)"
+        },
+        {
+          "name": "Markaziy suv tizimga ulangan",
+          "id": "46",
+          "name_uz": "Markaziy suv tizimga ulangan"
+        },
+        {
+          "name": "Tashib kelinadigan",
+          "id": "48",
+          "name_uz": "Tashib kelinadigan"
+        }
+      ]
+    },
+    {
+      "content_table_id": "15",
+      "name_savol": "Hojatxona",
+      "answers": [
+        {
+          "name": "Suv bilan yuviladigan",
+          "id": "50",
+          "name_uz": "Suv bilan yuviladigan"
+        },
+        {
+          "name": "Uy tashqarisidagi boshqa turdagi hojatxona",
+          "id": "52",
+          "name_uz": "Uy tashqarisidagi boshqa turdagi hojatxona"
+        }
+      ]
+    },
+    {
+      "content_table_id": "16",
+      "name_savol": "Isitish tizimi",
+      "answers": [
+        {
+          "name": "Markaziy tizimga ulangan",
+          "id": "53",
+          "name_uz": "Markaziy tizimga ulangan"
+        },
+        {
+          "name": "Yakka tartibdagi isitish qurilmalari",
+          "id": "54",
+          "name_uz": "Yakka tartibdagi isitish qurilmalari"
+        },
+        {
+          "name": "Pechlar (o'tin, ko'mir va boshqalar)",
+          "id": "55",
+          "name_uz": "Pechlar (o'tin, ko'mir va boshqalar)"
+        }
+      ]
+    },
+    {
+      "content_table_id": "17",
+      "name_savol": "Gaz ta'minoti",
+      "answers": [
+        {
+          "name": "Markaziy gaz tarmog'iga ulangan",
+          "id": "56",
+          "name_uz": "Markaziy gaz tarmog'iga ulangan"
+        },
+        {
+          "name": "Suyultirilgan gaz (ballon)",
+          "id": "57",
+          "name_uz": "Suyultirilgan gaz (ballon)"
+        },
+        {
+          "name": "Mavjud emas",
+          "id": "58",
+          "name_uz": "Mavjud emas"
+        }
+      ]
+    },
+    {
+      "content_table_id": "18",
+      "name_savol": "Issiq suv ta'minoti",
+      "answers": [
+        {
+          "name": "Markaziy tizimga ulangan",
+          "id": "59",
+          "name_uz": "Markaziy tizimga ulangan"
+        },
+        {
+          "name": "Yakka tartibdagi suv isitish qurilmalari",
+          "id": "60",
+          "name_uz": "Yakka tartibdagi suv isitish qurilmalari"
+        },
+        {
+          "name": "Mavjud emas",
+          "id": "61",
+          "name_uz": "Mavjud emas"
+        }
+      ]
+    },
+    {
+      "content_table_id": "19",
+      "name_savol": "Kanalizatsiya tizimi",
+      "answers": [
+        {
+          "name": "Markaziy tizimga ulangan",
+          "id": "62",
+          "name_uz": "Markaziy tizimga ulangan"
+        },
+        { "name": "Mavjud emas", "id": "64", "name_uz": "Mavjud emas" },
+        {
+          "name": "Yakka tartibda",
+          "id": "63",
+          "name_uz": "Yakka tartibda"
+        }
+      ]
+    },
+    {
+      "content_table_id": "20",
+      "name_savol": "Yuvinish joyi",
+      "answers": [
+        { "name": "Dush, vanna", "id": "65", "name_uz": "Dush, vanna" },
+        {
+          "name": "Hammom",
+          "id": "66",
+          "name_uz": "Hammom"
+        },
+        {
+          "name": "Mavjud emas",
+          "id": "68",
+          "name_uz": "Mavjud emas"
+        },
+        {
+          "name": "Boshqa yuvinish joyi",
+          "id": "67",
+          "name_uz": "Boshqa yuvinish joyi"
+        }
+      ]
+    },
+    {
+      "content_table_id": "21",
+      "name_savol": "Электричество",
+      "answers": [
+        {
+          "name": "Markaziy elektr tarmog'iga ulangan",
+          "id": "69",
+          "name_uz": "Markaziy elektr tarmog'iga ulangan"
+        },
+        {
+          "name": "Yakka tartibdagi elektr tarmog'i (muqobil elektr manbalari)",
+          "id": "70",
+          "name_uz": "Yakka tartibdagi elektr tarmog'i (muqobil elektr manbalari)"
+        },
+        {
+          "name": "Mavjud emas",
+          "id": "71",
+          "name_uz": "Mavjud emas"
+        }
+      ]
+    },
+
+    {
+      "content_table_id": "22",
+      "name_savol": "доступ к сети Интернет",
+      "answers": [
+        {
+          "name": "Mavjud emas",
+          "id": "73",
+          "name_uz": "Mavjud emas"
+        },
+        {
+          "name": "Mavjud",
+          "id": "72",
+          "name_uz": "Mavjud"
+        }
+      ]
+    },
+    {
+      "content_table_id": "23",
+      "name_savol": "Chiqindilarni markazlashtirilgan yig'ish xizmati",
+      "answers": [
+        {
+          "name": "Mavjud emas",
+          "id": "75",
+          "name_uz": "Mavjud emas"
+        },
+        {
+          "name": "Mavjud",
+          "id": "74",
+          "name_uz": "Mavjud"
+        }
+      ]
+    },
+    {
+      "content_table_id": "24",
+      "name_savol": "Электрическая плита для многоквартирных жилых домов где отсутствует газ)",
+      "answers": [
+        {
+          "name": "Mavjud",
+          "id": "76",
+          "name_uz": "Mavjud"
+        },
+        {
+          "name": "Mavjud emas",
+          "id": "2074",
+          "name_uz": "Mavjud emas"
+        }
+      ]
+    },
+    {
+      "content_table_id": "25",
+      "name_savol": "Uy xo'jaligi boshlig'i yoki boshqa a'zolari nomida boshqa uy-joy bormi?",
+      "answers": [
+        {
+          "name": "Bor",
+          "id": "77",
+          "name_uz": "Bor"
+        },
+        {
+          "name": "Yo'q",
+          "id": "78",
+          "name_uz": "Yo'q"
+        }
+      ]
+    },
+    {
+      "content_table_id": "26",
+      "name_savol": "Uy xo'jaligida birinchi ko'rsatilgan shaxs bilan qarindoshlik munosabati",
+      "answers": [
+        {
+          "name": "O'g'li/qizi",
+          "id": "81",
+          "name_uz": "O'g'li/qizi"
+        },
+        {
+          "name": "Qarindosh emas",
+          "id": "89",
+          "name_uz": "Qarindosh emas"
+        },
+        {
+          "name": "Boshqa qarindoshlik turi",
+          "id": "88",
+          "name_uz": "Boshqa qarindoshlik turi"
+        },
+        {
+          "name": "Bobosi/buvisi",
+          "id": "87",
+          "name_uz": "Bobosi/buvisi"
+        },
+        {
+          "name": "Kuyovi/kelini",
+          "id": "86",
+          "name_uz": "Kuyovi/kelini"
+        },
+        {
+          "name": "Nabirasi",
+          "id": "85",
+          "name_uz": "Nabirasi"
+        },
+        {
+          "name": "Qaynotasi/qaynonasi",
+          "id": "84",
+          "name_uz": "Qaynotasi/qaynonasi"
+        },
+        {
+          "name": "Otasi/onasi",
+          "id": "82",
+          "name_uz": "Otasi/onasi"
+        },
+        {
+          "name": "Turmush o'rtog'i",
+          "id": "80",
+          "name_uz": "Turmush o'rtog'i"
+        },
+        {
+          "name": "Birinchi ko'rsatilgan shaxs",
+          "id": "79",
+          "name_uz": "Birinchi ko'rsatilgan shaxs"
+        },
+        {
+          "name": "Akasi (ukasi)/opasi (singlisi)",
+          "id": "83",
+          "name_uz": "Akasi (ukasi)/opasi (singlisi)"
+        }
+      ]
+    },
+    {
+      "content_table_id": "27",
+      "name_savol": "Aholini ro'yxatga olish vaqtida qayerda yashaydi",
+      "answers": [
+        {
+          "name": "Boshqa aholi punktida",
+          "id": "91",
+          "name_uz": "Boshqa aholi punktida"
+        },
+        {
+          "name": "Ushbu aholi punktida",
+          "id": "90",
+          "name_uz": "Ushbu aholi punktida"
+        },
+        {
+          "name": "Boshqa mamlakatda",
+          "id": "92",
+          "name_uz": "Boshqa mamlakatda"
+        }
+      ]
+    },
+    {
+      "content_table_id": "28",
+      "name_savol": "Ushbu joyda doimiy, vaqtinchalik yashaydi yoki vaqtinchalik yashamaydi",
+      "answers": [
+        {
+          "name": "Boshqa  mamlakatda doimiy yashovchi chet el fuqarolari",
+          "id": "96",
+          "name_uz": "Boshqa  mamlakatda doimiy yashovchi chet el fuqarolari"
+        },
+        {
+          "name": "Ushbu turar joyda doimiy yashaydi",
+          "id": "93",
+          "name_uz": "Ushbu turar joyda doimiy yashaydi"
+        },
+        {
+          "name": "Ushbu turar joyda doimiy yashaydi, ammo vaqtinchalik bu yerda emas",
+          "id": "94",
+          "name_uz": "Ushbu turar joyda doimiy yashaydi, ammo vaqtinchalik bu yerda emas"
+        },
+        {
+          "name": "Respublikaning boshqa hududidan kelib, vaqtinchalik yashaydi",
+          "id": "95",
+          "name_uz": "Respublikaning boshqa hududidan kelib, vaqtinchalik yashaydi"
+        }
+      ]
+    },
+    {
+      "content_table_id": "29",
+      "name_savol": "Ushbu joyda vaqtinchalik yashamaslik sababi",
+      "answers": [
+        {
+          "name": "Boshqa sabablar",
+          "id": "104",
+          "name_uz": "Boshqa sabablar"
+        },
+        {
+          "name": "Ish",
+          "id": "97",
+          "name_uz": "Ish"
+        },
+        {
+          "name": "Ta'lim",
+          "id": "98",
+          "name_uz": "Ta'lim"
+        },
+        {
+          "name": "Xizmat safari",
+          "id": "99",
+          "name_uz": "Xizmat safari"
+        },
+        {
+          "name": "Davolanish",
+          "id": "100",
+          "name_uz": "Davolanish"
+        },
+        {
+          "name": "Oilaviy sabablar",
+          "id": "101",
+          "name_uz": "Oilaviy sabablar"
+        },
+        {
+          "name": "Turizm, dam olish",
+          "id": "102",
+          "name_uz": "Turizm, dam olish"
+        },
+        {
+          "name": "Tijorat",
+          "id": "103",
+          "name_uz": "Tijorat"
+        }
+      ]
+    },
+    {
+      "content_table_id": "30",
+      "name_savol": "Tug'ilgan joyingiz",
+      "answers": [
+        {
+          "name": "Boshqa davlat",
+          "id": "106",
+          "name_uz": "Boshqa davlat"
+        },
+        {
+          "name": "O'zbekiston Respublikasi",
+          "id": "105",
+          "name_uz": "O'zbekiston Respublikasi"
+        }
+      ]
+    },
+    {
+      "content_table_id": "31",
+      "name_savol": "Mazkur aholi punktida tug'ilganingizdan beri yashaysizmi?",
+      "answers": [
+        {
+          "name": "Ha",
+          "id": "107",
+          "name_uz": "Ha"
+        },
+        {
+          "name": "Yo'q",
+          "id": "108",
+          "name_uz": "Yo'q"
+        }
+      ]
+    },
+    {
+      "content_table_id": "32",
+      "name_savol": "Qachon ko'chib keldingiz?",
+      "answers": [
+        {
+          "name": "2023 yil 15-oktabrgacha",
+          "id": "109",
+          "name_uz": "2023 yil 15-oktabrgacha"
+        },
+        {
+          "name": "2023 yil 15-oktabrdan keyin",
+          "id": "110",
+          "name_uz": "2023 yil 15-oktabrdan keyin"
+        }
+      ]
+    },
+    {
+      "content_table_id": "33",
+      "name_savol": "Oxirgi doimiy yashagan joyingiz?",
+      "answers": [
+        {
+          "name": "O'zbekiston Respublikasi",
+          "id": "111",
+          "name_uz": "O'zbekiston Respublikasi"
+        },
+        {
+          "name": "Boshqa mamlakat",
+          "id": "112",
+          "name_uz": "Boshqa mamlakat"
+        }
+      ]
+    },
+    {
+      "content_table_id": "34",
+      "name_savol": "Boshqa mamlakatda 1991-yil sentabr oyidan keyin uzluksiz bir yil va undan ortiq muddatda yashaganmisiz (bo'lganmisiz)?",
+      "answers": [
+        {
+          "name": "Yo'q",
+          "id": "114",
+          "name_uz": "Yo'q"
+        },
+        {
+          "name": "Ha",
+          "id": "113",
+          "name_uz": "Ha"
+        }
+      ]
+    },
+    {
+      "content_table_id": "35",
+      "name_savol": "Qaysi xorijiy mamlakatda bo'lgansiz?",
+      "answers": [
+        {
+          "name": "Boshqa",
+          "id": "120",
+          "name_uz": "Boshqa"
+        },
+        {
+          "name": "Turkiya",
+          "id": "119",
+          "name_uz": "Turkiya"
+        },
+        {
+          "name": "Janubiy Koreya",
+          "id": "118",
+          "name_uz": "Janubiy Koreya"
+        },
+        {
+          "name": "Qirg'iziston",
+          "id": "117",
+          "name_uz": "Qirg'iziston"
+        },
+        {
+          "name": "Qozog'iston",
+          "id": "116",
+          "name_uz": "Qozog'iston"
+        },
+        {
+          "name": "Rossiya",
+          "id": "115",
+          "name_uz": "Rossiya"
+        }
+      ]
+    },
+    {
+      "content_table_id": "36",
+      "name_savol": "O'zbekiston Respublikasidan nima maqsadda ketgansiz?",
+      "answers": [
+        {
+          "name": "Ish",
+          "id": "121",
+          "name_uz": "Ish"
+        },
+        {
+          "name": "Ta'lim",
+          "id": "122",
+          "name_uz": "Ta'lim"
+        },
+        {
+          "name": "Oilaviy sabablar",
+          "id": "123",
+          "name_uz": "Oilaviy sabablar"
+        },
+        {
+          "name": "Boshqa",
+          "id": "124",
+          "name_uz": "Boshqa"
+        }
+      ]
+    },
+    {
+      "content_table_id": "37",
+      "name_savol": "Nikoh qurganmisiz?",
+      "answers": [
+        {
+          "name": "Yo'q",
+          "id": "126",
+          "name_uz": "Yo'q"
+        },
+        {
+          "name": "Ha",
+          "id": "125",
+          "name_uz": "Ha"
+        }
+      ]
+    },
+    {
+      "content_table_id": "38",
+      "name_savol": "Nikoh holatingiz?",
+      "answers": [
+        {
+          "name": "Rasmiy nikohda",
+          "id": "127",
+          "name_uz": "Rasmiy nikohda"
+        },
+        {
+          "name": "Ro'yxatga olinmagan nikohda",
+          "id": "128",
+          "name_uz": "Ro'yxatga olinmagan nikohda"
+        },
+        {
+          "name": "Ajrashmagan, alohida yashaydi",
+          "id": "131",
+          "name_uz": "Ajrashmagan, alohida yashaydi"
+        },
+        {
+          "name": "Beva, tul",
+          "id": "129",
+          "name_uz": "Beva, tul"
+        },
+        {
+          "name": "Nikoh qurmagan",
+          "id": "2556",
+          "name_uz": "Nikoh qurmagan"
+        },
+        {
+          "name": "Ajrashgan (qonuniy)",
+          "id": "130",
+          "name_uz": "Ajrashgan (qonuniy)"
+        }
+      ]
+    },
+    {
+      "content_table_id": "39",
+      "name_savol": "Fuqaroligingiz?",
+      "answers": [
+        {
+          "name": "O'zbekiston Respublikasi",
+          "id": "132",
+          "name_uz": "O'zbekiston Respublikasi"
+        },
+        {
+          "name": "Fuqaroligi yo'q shaxs",
+          "id": "133",
+          "name_uz": "Fuqaroligi yo'q shaxs"
+        },
+        {
+          "name": "Boshqa davlat fuqarosi",
+          "id": "134",
+          "name_uz": "Boshqa davlat fuqarosi"
+        }
+      ]
+    },
+    {
+      "content_table_id": "40",
+      "name_savol": "Siz majburiy ko'chirilgan yoki qochoq (maqomida) emasmisiz?",
+      "answers": [
+        {
+          "name": "Ha",
+          "id": "135",
+          "name_uz": "Ha"
+        },
+        {
+          "name": "Yo'q",
+          "id": "136",
+          "name_uz": "Yo'q"
+        }
+      ]
+    },
+    {
+      "content_table_id": "41",
+      "name_savol": "Millatingiz",
+      "answers": [
+        {
+          "name": "Tojik",
+          "id": "140",
+          "name_uz": "Tojik"
+        },
+        {
+          "name": "Boshqa",
+          "id": "144",
+          "name_uz": "Boshqa"
+        },
+        {
+          "name": "Turkman",
+          "id": "143",
+          "name_uz": "Turkman"
+        },
+        {
+          "name": "Qirg'iz",
+          "id": "141",
+          "name_uz": "Qirg'iz"
+        },
+        {
+          "name": "Qozoq",
+          "id": "139",
+          "name_uz": "Qozoq"
+        },
+        {
+          "name": "O'zbek",
+          "id": "137",
+          "name_uz": "O'zbek"
+        },
+        {
+          "name": "Rus",
+          "id": "142",
+          "name_uz": "Rus"
+        },
+        {
+          "name": "Qoraqalpoq",
+          "id": "138",
+          "name_uz": "Qoraqalpoq"
+        }
+      ]
+    },
+    {
+      "content_table_id": "42",
+      "name_savol": "Ona tilingiz?",
+      "answers": [
+        {
+          "name": "Qoraqalpoq",
+          "id": "146",
+          "name_uz": "Qoraqalpoq"
+        },
+        {
+          "name": "Boshqa",
+          "id": "152",
+          "name_uz": "Boshqa"
+        },
+        {
+          "name": "Turkman",
+          "id": "151",
+          "name_uz": "Turkman"
+        },
+        {
+          "name": "Rus",
+          "id": "150",
+          "name_uz": "Rus"
+        },
+        {
+          "name": "Qirg'iz",
+          "id": "149",
+          "name_uz": "Qirg'iz"
+        },
+        {
+          "name": "Qozoq",
+          "id": "147",
+          "name_uz": "Qozoq"
+        },
+        {
+          "name": "O'zbek",
+          "id": "145",
+          "name_uz": "O'zbek"
+        },
+        {
+          "name": "Tojik",
+          "id": "148",
+          "name_uz": "Tojik"
+        }
+      ]
+    },
+    {
+      "content_table_id": "43",
+      "name_savol": "Qaysi tillarda suhbatlasha olasiz?",
+      "answers": [
+        {
+          "name": "Boshqa",
+          "id": "161",
+          "name_uz": "Boshqa"
+        },
+        {
+          "name": "Ingliz",
+          "id": "160",
+          "name_uz": "Ingliz"
+        },
+        {
+          "name": "Tojik",
+          "id": "156",
+          "name_uz": "Tojik"
+        },
+        {
+          "name": "Turkman",
+          "id": "159",
+          "name_uz": "Turkman"
+        },
+        {
+          "name": "O'zbek",
+          "id": "153",
+          "name_uz": "O'zbek"
+        },
+        {
+          "name": "Rus",
+          "id": "158",
+          "name_uz": "Rus"
+        },
+        {
+          "name": "Qirg'iz",
+          "id": "157",
+          "name_uz": "Qirg'iz"
+        },
+        {
+          "name": "Qoraqalpoq",
+          "id": "154",
+          "name_uz": "Qoraqalpoq"
+        },
+        {
+          "name": "Qozoq",
+          "id": "155",
+          "name_uz": "Qozoq"
+        }
+      ]
+    },
+    {
+      "content_table_id": "44",
+      "name_savol": "Sport bilan shug'ullanasizmi?",
+      "answers": [
+        {
+          "name": "Ha",
+          "id": "162",
+          "name_uz": "Ha"
+        },
+        {
+          "name": "Yo'q",
+          "id": "163",
+          "name_uz": "Yo'q"
+        }
+      ]
+    },
+    {
+      "content_table_id": "45",
+      "name_savol": "Sport bilan qayerda shug'ullanasiz?",
+      "answers": [
+        {
+          "name": "Stadionda",
+          "id": "2554",
+          "name_uz": "Stadionda"
+        },
+        {
+          "name": "Parkda",
+          "id": "2555",
+          "name_uz": "Parkda"
+        },
+        {
+          "name": "Uyda",
+          "id": "164",
+          "name_uz": "Uyda"
+        },
+        {
+          "name": "Maxsus ajratilgan sport zali",
+          "id": "165",
+          "name_uz": "Maxsus ajratilgan sport zali"
+        },
+        {
+          "name": "Boshqa",
+          "id": "166",
+          "name_uz": "Boshqa"
+        }
+      ]
+    },
+    {
+      "content_table_id": "46",
+      "name_savol": "Nima sababdan sport bilan shug'ullanmaysiz?",
+      "answers": [
+        {
+          "name": "Shug'ullanish uchun maxsus muassasa mavjud emas",
+          "id": "168",
+          "name_uz": "Shug'ullanish uchun maxsus muassasa mavjud emas"
+        },
+        {
+          "name": "Boshqa",
+          "id": "169",
+          "name_uz": "Boshqa"
+        },
+        {
+          "name": "Sharoitim mavjud emas",
+          "id": "167",
+          "name_uz": "Sharoitim mavjud emas"
+        }
+      ]
+    },
+    {
+      "content_table_id": "47",
+      "name_savol": "Ta'lim darajangiz",
+      "answers": [
+        {
+          "name": "Boshlang'ich",
+          "id": "170",
+          "name_uz": "Boshlang'ich"
+        },
+        {
+          "name": "Ta'limga ega emasman",
+          "id": "230",
+          "name_uz": "Ta'limga ega emasman"
+        },
+        {
+          "name": "To'liqsiz o'rta",
+          "id": "171",
+          "name_uz": "To'liqsiz o'rta"
+        },
+        {
+          "name": "Umumiy o'rta",
+          "id": "172",
+          "name_uz": "Umumiy o'rta"
+        },
+        {
+          "name": "O'rta maxsus",
+          "id": "173",
+          "name_uz": "O'rta maxsus"
+        },
+        {
+          "name": "Oliy",
+          "id": "229",
+          "name_uz": "Oliy"
+        },
+        {
+          "name": "Tugallanmagan oliy",
+          "id": "2551",
+          "name_uz": "Tugallanmagan oliy"
+        }
+      ]
+    },
+    {
+      "content_table_id": "48",
+      "name_savol": "Yashash uchun daromad manbalaringizni ko'rsating",
+      "answers": [
+        {
+          "name": "Birovning qaramog`ida,homiylik ,aliment",
+          "id": "2557",
+          "name_uz": "Birovning qaramog`ida,homiylik ,aliment"
+        },
+        {
+          "name": "Ishsizlik nafaqasi",
+          "id": "183",
+          "name_uz": "Ishsizlik nafaqasi"
+        },
+        {
+          "name": "Mulkni ijaraga berish, foizlar, dividendlar, gonorarlar, patentlar",
+          "id": "186",
+          "name_uz": "Mulkni ijaraga berish, foizlar, dividendlar, gonorarlar, patentlar"
+        },
+        {
+          "name": "Boshqa manbalardan",
+          "id": "189",
+          "name_uz": "Boshqa manbalardan"
+        },
+        {
+          "name": "Qarindoshining qaramog'ida",
+          "id": "2557",
+          "name_uz": "Qarindoshining qaramog'ida"
+        },
+        {
+          "name": "Respublika tashqarisidan olingan mablag'lardan",
+          "id": "187",
+          "name_uz": "Respublika tashqarisidan olingan mablag'lardan"
+        },
+        {
+          "name": "Yig'ib qo'yilgan jamg'arma, omonat jamg'armasi",
+          "id": "185",
+          "name_uz": "Yig'ib qo'yilgan jamg'arma, omonat jamg'armasi"
+        },
+        {
+          "name": "Davlat ta'minotining boshqa turlari",
+          "id": "184",
+          "name_uz": "Davlat ta'minotining boshqa turlari"
+        },
+        {
+          "name": "Nogironlik pensiyasi",
+          "id": "181",
+          "name_uz": "Nogironlik pensiyasi"
+        },
+        {
+          "name": "Pensiya (nogironlik pensiyasidan tashqari)",
+          "id": "180",
+          "name_uz": "Pensiya (nogironlik pensiyasidan tashqari)"
+        },
+        {
+          "name": "Stipendiya",
+          "id": "179",
+          "name_uz": "Stipendiya"
+        },
+        {
+          "name": "Shaxsiy iste'moli uchun tovarlar ishlab chiqarish",
+          "id": "178",
+          "name_uz": "Shaxsiy iste'moli uchun tovarlar ishlab chiqarish"
+        },
+        {
+          "name": "Shaxsiy yordamchi xo'jalikdan",
+          "id": "177",
+          "name_uz": "Shaxsiy yordamchi xo'jalikdan"
+        },
+        {
+          "name": "Mustaqil ish faoliyatidan, jamoat ishlaridan",
+          "id": "176",
+          "name_uz": "Mustaqil ish faoliyatidan, jamoat ishlaridan"
+        },
+        {
+          "name": "Tadbirkorlik (shu jumladan, YTT)dan",
+          "id": "175",
+          "name_uz": "Tadbirkorlik (shu jumladan, YTT)dan"
+        },
+        {
+          "name": "Turmush o'rtog'ining qaramog'ida",
+          "id": "2552",
+          "name_uz": "Turmush o'rtog'ining qaramog'ida"
+        },
+        {
+          "name": "Ish haqidan",
+          "id": "174",
+          "name_uz": "Ish haqidan"
+        },
+        {
+          "name": "Ota-onasining qaramog'ida",
+          "id": "188",
+          "name_uz": "Ota-onasining qaramog'ida"
+        },
+        {
+          "name": "Homiylik, aliment",
+          "id": "2553",
+          "name_uz": "Homiylik, aliment"
+        },
+        {
+          "name": "Mahalladan nafaqa",
+          "id": "182",
+          "name_uz": "Mahalladan nafaqa"
+        }
+      ]
+    },
+
+    {
+      "content_table_id": "49",
+      "name_savol": "Bir oydagi daromadingiz qancha?",
+      "answers": [
+        {
+          "name": "3 396 000 so'mdan 6 790 000 so'mgacha",
+          "id": "192",
+          "name_uz": "3 396 000 so'mdan 6 790 000 so'mgacha"
+        },
+        {
+          "name": "Boshqa",
+          "id": "195",
+          "name_uz": "Boshqa"
+        },
+        {
+          "name": "6 790 000 so'mdan 10 189 000 so'mgacha",
+          "id": "193",
+          "name_uz": "6 790 000 so'mdan 10 189 000 so'mgacha"
+        },
+        {
+          "name": "1 358 000 so'mdan 3 396 000 so'mgacha",
+          "id": "191",
+          "name_uz": "1 358 000 so'mdan 3 396 000 so'mgacha"
+        },
+        {
+          "name": "679 000 so'mdan 1 358 000 so'mgacha",
+          "id": "190",
+          "name_uz": "679 000 so'mdan 1 358 000 so'mgacha"
+        },
+        {
+          "name": "10 189 000 so'mdan 13 586 000 so'mgacha",
+          "id": "194",
+          "name_uz": "10 189 000 so'mdan 13 586 000 so'mgacha"
+        }
+      ]
+    },
+    {
+      "content_table_id": "50",
+      "name_savol": "Joriy yilning 24-31 oktabr kunlari ish haqi to'lanadigan yoki daromad keltiradigan ish bilan mashg'ul bo'lganmisiz?",
+      "answers": [
+        {
+          "name": "Ha",
+          "id": "196",
+          "name_uz": "Ha"
+        },
+        {
+          "name": "Ayrim sabablarga ko'ra vaqtincha ishlamagan, jumladan, mehnat ta'tili, kasallik, tug'ish va homiladorlik bo'yicha mehnat ta'tili, 3 yoshgacha farzand parvarishi, vaxta yoki smena usulida, maxsus tusga ega ish bilan band bo'lgan, malakasini oshirish bo'yic",
+          "id": "197",
+          "name_uz": "Ayrim sabablarga ko'ra vaqtincha ishlamagan, jumladan, mehnat ta'tili, kasallik, tug'ish va homiladorlik bo'yicha mehnat ta'tili, 3 yoshgacha farzand parvarishi, vaxta yoki smena usulida, maxsus tusga ega ish bilan band bo'lgan, malakasini oshirish bo'yic"
+        },
+        {
+          "name": "Yo'q",
+          "id": "198",
+          "name_uz": "Yo'q"
+        }
+      ]
+    },
+    {
+      "content_table_id": "51",
+      "name_savol": "Qayerda asosiy  mehnat faoliyatingizni olib borasiz (qayerda ishlaysiz)?",
+      "answers": [
+        {
+          "name": "Yakka tadbirkor qo'l ostida",
+          "id": "294",
+          "name_uz": "Yakka tadbirkor qo'l ostida"
+        },
+        {
+          "name": "Dehqon, fermer xo'jaliklarida",
+          "id": "200",
+          "name_uz": "Dehqon, fermer xo'jaliklarida"
+        },
+        {
+          "name": "Ish haqi to'lanmaydigan shaxsiy yordamchi xo'jalikda band",
+          "id": "204",
+          "name_uz": "Ish haqi to'lanmaydigan shaxsiy yordamchi xo'jalikda band"
+        },
+        {
+          "name": "Sotish maqsadida qishloq xo'jaligi mahsulotlarini ishlab chiqarish (qayta ishlash) bo'yicha shaxsiy yordamchi xo'jalikda band",
+          "id": "203",
+          "name_uz": "Sotish maqsadida qishloq xo'jaligi mahsulotlarini ishlab chiqarish (qayta ishlash) bo'yicha shaxsiy yordamchi xo'jalikda band"
+        },
+        {
+          "name": "Yakka tadbirkor",
+          "id": "201",
+          "name_uz": "Yakka tadbirkor"
+        },
+        {
+          "name": "Korxona, tashkilotda (korxona, tashkilotning quyi tuzilmaviy bo'limlarida)",
+          "id": "199",
+          "name_uz": "Korxona, tashkilotda (korxona, tashkilotning quyi tuzilmaviy bo'limlarida)"
+        },
+        {
+          "name": "O'zini o'zi band qilgan",
+          "id": "202",
+          "name_uz": "O'zini o'zi band qilgan"
+        }
+      ]
+    },
+    {
+      "content_table_id": "52",
+      "name_savol": "Asosiy ish joyingizda kim bo'lib ishlagansiz?",
+      "answers": [
+        {
+          "name": "Yollanib ishlovchi xodim",
+          "id": "205",
+          "name_uz": "Yollanib ishlovchi xodim"
+        },
+        {
+          "name": "O'z ishining, korxonasining egasi (hamkori, muassisi)",
+          "id": "206",
+          "name_uz": "O'z ishining, korxonasining egasi (hamkori, muassisi)"
+        },
+        {
+          "name": "Mustaqil ravishda ish bilan band, shu jumladan, jamoat ishlari, bir martalik va mavsumiy ishlar (xizmatlar) bilan band",
+          "id": "207",
+          "name_uz": "Mustaqil ravishda ish bilan band, shu jumladan, jamoat ishlari, bir martalik va mavsumiy ishlar (xizmatlar) bilan band"
+        },
+        {
+          "name": "Qarindoshlarining biriga yoki o'ziga tegishli tashkilotda ish haqi to'lanmaydigan ishlarda yordam beruvchi",
+          "id": "208",
+          "name_uz": "Qarindoshlarining biriga yoki o'ziga tegishli tashkilotda ish haqi to'lanmaydigan ishlarda yordam beruvchi"
+        }
+      ]
+    },
+    {
+      "content_table_id": "53",
+      "name_savol": "Asosiy ish joyingiz qayerda joylashgan?",
+      "answers": [
+        {
+          "name": "Hozirda yashab turgan tuman/shaharda",
+          "id": "209",
+          "name_uz": "Hozirda yashab turgan tuman/shaharda"
+        },
+        {
+          "name": "Respublikaning boshqa tuman/shahrida",
+          "id": "210",
+          "name_uz": "Respublikaning boshqa tuman/shahrida"
+        },
+        {
+          "name": "Boshqa",
+          "id": "211",
+          "name_uz": "Boshqa"
+        }
+      ]
+    },
+    {
+      "content_table_id": "54",
+      "name_savol": "Joriy yilning oktabr oyida ish izlaganmisiz?",
+      "answers": [
+        {
+          "name": "Ha",
+          "id": "212",
+          "name_uz": "Ha"
+        },
+        {
+          "name": "Yo'q",
+          "id": "213",
+          "name_uz": "Yo'q"
+        }
+      ]
+    },
+    {
+      "content_table_id": "55",
+      "name_savol": "Agar sizga ish taklif etilsa, 2 hafta mobaynida ishga kirishgan bo'lar edingizmi?",
+      "answers": [
+        {
+          "name": "Ha",
+          "id": "214",
+          "name_uz": "Ha"
+        },
+        {
+          "name": "Yo'q",
+          "id": "215",
+          "name_uz": "Yo'q"
+        }
+      ]
+    },
+    {
+      "content_table_id": "56",
+      "name_savol": "Ish izlamaslik yoki taklif etilgan ishga kirishmaslik sababini ko'rsating",
+      "answers": [
+        {
+          "name": "Uy-ro'zg'or ishlari bilan bandman",
+          "id": "219",
+          "name_uz": "Uy-ro'zg'or ishlari bilan bandman"
+        },
+        {
+          "name": "Sog'lig'im tufayli ishlamayman",
+          "id": "221",
+          "name_uz": "Sog'lig'im tufayli ishlamayman"
+        },
+        {
+          "name": "Ta'lim muassasasida tahsil olaman",
+          "id": "222",
+          "name_uz": "Ta'lim muassasasida tahsil olaman"
+        },
+        {
+          "name": "Uy ishlari, bola, va oilaning boshqa a'zolari parvarishi bilan bandman",
+          "id": "223",
+          "name_uz": "Uy ishlari, bola, va oilaning boshqa a'zolari parvarishi bilan bandman"
+        },
+        {
+          "name": "Ishlashga zarurat yo'q",
+          "id": "224",
+          "name_uz": "Ishlashga zarurat yo'q"
+        },
+        {
+          "name": "Boshqa sabablar",
+          "id": "225",
+          "name_uz": "Boshqa sabablar"
+        },
+        {
+          "name": "Ish topdim, o'zimning shaxsiy ishimni tashkil qildim va yaqin 2 hafta ichida kirishaman",
+          "id": "216",
+          "name_uz": "Ish topdim, o'zimning shaxsiy ishimni tashkil qildim va yaqin 2 hafta ichida kirishaman"
+        },
+        {
+          "name": "Pensiya yoki nafaqaga chiqqanman",
+          "id": "220",
+          "name_uz": "Pensiya yoki nafaqaga chiqqanman"
+        },
+        {
+          "name": "Ish topdim, javobini kutyapman",
+          "id": "217",
+          "name_uz": "Ish topdim, javobini kutyapman"
+        },
+        {
+          "name": "Mavsum boshlanishini kutyapman",
+          "id": "218",
+          "name_uz": "Mavsum boshlanishini kutyapman"
+        }
+      ]
+    },
+    {
+      "content_table_id": "57",
+      "name_savol": "Oliy ta'lim daraja turi",
+      "answers": [
+        {
+          "name": "Magistr",
+          "id": "227",
+          "name_uz": "Magistr"
+        },
+        {
+          "name": "Bakalavr",
+          "id": "226",
+          "name_uz": "Bakalavr"
+        },
+        {
+          "name": "Umumiy oliy",
+          "id": "228",
+          "name_uz": "Umumiy oliy"
+        }
+      ]
+    },
+    {
+      "content_table_id": "58",
+      "name_savol": "O'qish va/yoki yozishni bilasizmi?",
+      "answers": [
+        {
+          "name": "Ha",
+          "id": "231",
+          "name_uz": "Ha"
+        },
+        {
+          "name": "Yo'q",
+          "id": "232",
+          "name_uz": "Yo'q"
+        }
+      ]
+    },
+    {
+      "content_table_id": "59",
+      "name_savol": "Ilmiy darajangiz bormi?",
+      "answers": [
+        {
+          "name": "Ha",
+          "id": "233",
+          "name_uz": "Ha"
+        },
+        {
+          "name": "Yo'q",
+          "id": "234",
+          "name_uz": "Yo'q"
+        }
+      ]
+    },
+    {
+      "content_table_id": "60",
+      "name_savol": "Ilmiy daraja turlari",
+      "answers": [
+        {
+          "name": "PhD",
+          "id": "237",
+          "name_uz": "PhD"
+        },
+        {
+          "name": "Doctor of Science",
+          "id": "238",
+          "name_uz": "Doctor of Science"
+        },
+        {
+          "name": "Fan doktori",
+          "id": "236",
+          "name_uz": "Fan doktori"
+        },
+        {
+          "name": "Fan nomzodi",
+          "id": "235",
+          "name_uz": "Fan nomzodi"
+        }
+      ]
+    },
+    {
+      "content_table_id": "61",
+      "name_savol": "Bola bog'chaga boradimi?",
+      "answers": [
+        {
+          "name": "Ha",
+          "id": "239",
+          "name_uz": "Ha"
+        },
+        {
+          "name": "Yo'q",
+          "id": "240",
+          "name_uz": "Yo'q"
+        }
+      ]
+    },
+    {
+      "content_table_id": "62",
+      "name_savol": "Maktabgacha ta'lim tashkiloti turi",
+      "answers": [
+        {
+          "name": "Davlat",
+          "id": "241",
+          "name_uz": "Davlat"
+        },
+        {
+          "name": "Nodavlat",
+          "id": "242",
+          "name_uz": "Nodavlat"
+        }
+      ]
+    },
+    {
+      "content_table_id": "63",
+      "name_savol": "Hozirda ta'lim olasizmi?",
+      "answers": [
+        {
+          "name": "Ha",
+          "id": "243",
+          "name_uz": "Ha"
+        },
+        {
+          "name": "Yo'q",
+          "id": "244",
+          "name_uz": "Yo'q"
+        }
+      ]
+    },
+    {
+      "content_table_id": "64",
+      "name_savol": "Ta'lim turi",
+      "answers": [
+        {
+          "name": "O'rta maxsus ta'lim",
+          "id": "247",
+          "name_uz": "O'rta maxsus ta'lim"
+        },
+        {
+          "name": "Boshlang'ich ta'lim",
+          "id": "245",
+          "name_uz": "Boshlang'ich ta'lim"
+        },
+        {
+          "name": "Oliy ta'limdan keyingi ta'lim",
+          "id": "249",
+          "name_uz": "Oliy ta'limdan keyingi ta'lim"
+        },
+        {
+          "name": "Umumiy o'rta ta'lim",
+          "id": "246",
+          "name_uz": "Umumiy o'rta ta'lim"
+        },
+        {
+          "name": "Oliy ta'lim",
+          "id": "248",
+          "name_uz": "Oliy ta'lim"
+        }
+      ]
+    },
+    {
+      "content_table_id": "65",
+      "name_savol": "O'zbekistonga kelishdan maqsadi",
+      "answers": [
+        {
+          "name": "Oilaviy sabab",
+          "id": "255",
+          "name_uz": "Oilaviy sabab"
+        },
+        {
+          "name": "Turizm, dam olish",
+          "id": "256",
+          "name_uz": "Turizm, dam olish"
+        },
+        {
+          "name": "Tijorat",
+          "id": "257",
+          "name_uz": "Tijorat"
+        },
+        {
+          "name": "Tranzit migratsiyasi",
+          "id": "258",
+          "name_uz": "Tranzit migratsiyasi"
+        },
+        {
+          "name": "Boshqa maqsadlarda",
+          "id": "259",
+          "name_uz": "Boshqa maqsadlarda"
+        },
+        {
+          "name": "Ish",
+          "id": "250",
+          "name_uz": "Ish"
+        },
+        {
+          "name": "Davolanish",
+          "id": "254",
+          "name_uz": "Davolanish"
+        },
+        {
+          "name": "Ta'lim",
+          "id": "251",
+          "name_uz": "Ta'lim"
+        },
+        {
+          "name": "Xizmat safari",
+          "id": "252",
+          "name_uz": "Xizmat safari"
+        }
+      ]
+    },
+    {
+      "content_table_id": "66",
+      "name_savol": "Muassasa turi",
+      "answers": [
+        {
+          "name": "Oliy va o‘rta maxsus ta’lim muassasasi",
+          "id": "263",
+          "name_uz": "Oliy va o‘rta maxsus ta’lim muassasasi"
+        },
+        {
+          "name": "Boshqa idora, tashkilot",
+          "id": "266",
+          "name_uz": "Boshqa idora, tashkilot"
+        },
+        {
+          "name": "Shifoxona va boshqa sog‘liqni saqlash tashkiloti",
+          "id": "264",
+          "name_uz": "Shifoxona va boshqa sog‘liqni saqlash tashkiloti"
+        },
+        {
+          "name": "Ichki ishlar vazirligi, Mudofaa vazirligi, Favqulodda vaziyatlar vazirligi, Davlat xavfsizlik xizmati, Milliy gvardiya va Davlat bojxona qo‘mitasi huzuridagi tashkilot yoki muassasa, oila a’zolari yashayotgan yopiq hudud",
+          "id": "262",
+          "name_uz": "Ichki ishlar vazirligi, Mudofaa vazirligi, Favqulodda vaziyatlar vazirligi, Davlat xavfsizlik xizmati, Milliy gvardiya va Davlat bojxona qo‘mitasi huzuridagi tashkilot yoki muassasa, oila a’zolari yashayotgan yopiq hudud"
+        },
+        {
+          "name": "Urush va mehnat faxriylari uchun respublika pansionati, “Saxovat” internat uyi",
+          "id": "261",
+          "name_uz": "Urush va mehnat faxriylari uchun respublika pansionati, “Saxovat” internat uyi"
+        },
+        {
+          "name": "To‘liq davlat ta'minotidagi jismoniy yoki psixik rivojlanishida nuxsoni bo‘lgan bolalar uchun bolalar internat uyi, Bolalar shaharchasi, \"SOS – O‘zbekiston bolalar mahallalari\" uyushmasi, \"Muruvvat\" bolalar internat uyi, Bolalar uyi",
+          "id": "260",
+          "name_uz": "To‘liq davlat ta'minotidagi jismoniy yoki psixik rivojlanishida nuxsoni bo‘lgan bolalar uchun bolalar internat uyi, Bolalar shaharchasi, \"SOS – O‘zbekiston bolalar mahallalari\" uyushmasi, \"Muruvvat\" bolalar internat uyi, Bolalar uyi"
+        },
+        {
+          "name": "Diniy tashkilot",
+          "id": "265",
+          "name_uz": "Diniy tashkilot"
+        }
+      ]
+    },
+    {
+      "content_table_id": "67",
+      "name_savol": "2-shakl savolnomasi kimning javobi asosida to'ldirildi",
+      "answers": [
+        {
+          "name": "Shaxsning o'zi tomonidan berilgan javoblar asosida",
+          "id": "271",
+          "name_uz": "Shaxsning o'zi tomonidan berilgan javoblar asosida"
+        },
+        {
+          "name": "Boshqa shaxslar so'zidan",
+          "id": "272",
+          "name_uz": "Boshqa shaxslar so'zidan"
+        }
+      ]
+    },
+    {
+      "content_table_id": "68",
+      "name_savol": "Doimiy yashagan joyingizda kim bilan yashagansiz",
+      "answers": [
+        {
+          "name": "Yolg'iz (bir o'zi)",
+          "id": "273",
+          "name_uz": "Yolg'iz (bir o'zi)"
+        },
+        {
+          "name": "Uy xo'jaligining boshqa a'zolari bilan",
+          "id": "274",
+          "name_uz": "Uy xo'jaligining boshqa a'zolari bilan"
+        }
+      ]
+    },
+    {
+      "content_table_id": "69",
+      "name_savol": "Ushbu respondentning ma'lumotlari doimiy yashagan joydagi",
+      "answers": [
+        {
+          "name": "Uy xo'jaligi a'zolari ro'yxatga kiritilgan va shaxsga oid savolnoma (2-shakl) to'ldirilgan bo'lsa, vaqtincha turgan joyi bo'yicha to'ldirilgan 2-shakl savolnomasi bilan o'zaro solishtirilib, to'liq bo'lmagan shakl bekor qilinadi",
+          "id": "275",
+          "name_uz": "Uy xo'jaligi a'zolari ro'yxatga kiritilgan va shaxsga oid savolnoma (2-shakl) to'ldirilgan bo'lsa, vaqtincha turgan joyi bo'yicha to'ldirilgan 2-shakl savolnomasi bilan o'zaro solishtirilib, to'liq bo'lmagan shakl bekor qilinadi"
+        },
+        {
+          "name": "Uy xo'jaligi a'zolari ro'yxatda mavjud bo'lmasa, ro'yxatga kiritiladi va vaqtincha turgan joyi bo'yicha to'ldirilgan 2-shakl savolnomasidan ma'lumot sifatida foydalaniladi",
+          "id": "276",
+          "name_uz": "Uy xo'jaligi a'zolari ro'yxatda mavjud bo'lmasa, ro'yxatga kiritiladi va vaqtincha turgan joyi bo'yicha to'ldirilgan 2-shakl savolnomasidan ma'lumot sifatida foydalaniladi"
+        }
+      ]
+    },
+    {
+      "content_table_id": "70",
+      "name_savol": "Jinsi",
+      "answers": [
+        {
+          "name": "Ayol",
+          "id": "278",
+          "name_uz": "Ayol"
+        },
+        {
+          "name": "Erkak",
+          "id": "277",
+          "name_uz": "Erkak"
+        }
+      ]
+    },
+    {
+      "content_table_id": "71",
+      "name_savol": "Ushbu muassasada",
+      "answers": [
+        {
+          "name": "Vaqtincha yashaydi",
+          "id": "280",
+          "name_uz": "Vaqtincha yashaydi"
+        },
+        {
+          "name": "Doimiy yashaydi",
+          "id": "279",
+          "name_uz": "Doimiy yashaydi"
+        }
+      ]
+    },
+    {
+      "content_table_id": "72",
+      "name_savol": "Bino va xonadon raqami ma’lum",
+      "answers": [
+        {
+          "name": "Yo'q",
+          "id": "330",
+          "name_uz": "Yo'q"
+        },
+        {
+          "name": "Ha",
+          "id": "281",
+          "name_uz": "Ha"
+        }
+      ]
+    },
+    {
+      "content_table_id": "73",
+      "name_savol": "Markaziy suv tizimga ulangan",
+      "answers": [
+        {
+          "name": "Uy ichiga kiritilgan",
+          "id": "282",
+          "name_uz": "Uy ichiga kiritilgan"
+        },
+        {
+          "name": "Uy tashqarisida",
+          "id": "283",
+          "name_uz": "Uy tashqarisida"
+        }
+      ]
+    },
+    {
+      "content_table_id": "74",
+      "name_savol": "Suv bilan yuviladigan",
+      "answers": [
+        {
+          "name": "Uy ichida",
+          "id": "284",
+          "name_uz": "Uy ichida"
+        },
+        {
+          "name": "Uy tashqarisida",
+          "id": "285",
+          "name_uz": "Uy tashqarisida"
+        }
+      ]
+    },
+    {
+      "content_table_id": "414",
+      "name_savol": "Ko'chib o'tilgan vaqtlar",
+      "answers": [
+        {
+          "name": "2021 - oktabr",
+          "id": "1698",
+          "name_uz": "2021 - oktabr"
+        },
+        {
+          "name": "2021 - yanvar",
+          "id": "1689",
+          "name_uz": "2021 - yanvar"
+        },
+        {
+          "name": "2021 - sentabr",
+          "id": "1697",
+          "name_uz": "2021 - sentabr"
+        },
+        {
+          "name": "2021 - avgust",
+          "id": "1696",
+          "name_uz": "2021 - avgust"
+        },
+        {
+          "name": "2021 - iyul",
+          "id": "1695",
+          "name_uz": "2021 - iyul"
+        },
+        {
+          "name": "2020 - noyabr",
+          "id": "1687",
+          "name_uz": "2020 - noyabr"
+        },
+        {
+          "name": "2021 - mart",
+          "id": "1691",
+          "name_uz": "2021 - mart"
+        },
+        {
+          "name": "2021 - iyun",
+          "id": "1694",
+          "name_uz": "2021 - iyun"
+        },
+        {
+          "name": "2021 - fevral",
+          "id": "1690",
+          "name_uz": "2021 - fevral"
+        },
+        {
+          "name": "2020 - dekabr",
+          "id": "1688",
+          "name_uz": "2020 - dekabr"
+        },
+        {
+          "name": "2021 - april",
+          "id": "1692",
+          "name_uz": "2021 - april"
+        },
+        {
+          "name": "2021 - may",
+          "id": "1693",
+          "name_uz": "2021 - may"
+        }
+      ]
+    }
+  ]
+}
