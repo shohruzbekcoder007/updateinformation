@@ -11,7 +11,7 @@ import { globalState } from '../../globalState'
 
 export default observer(function BaseTable() {
   const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(25);
+  const [rowsPerPage, setRowsPerPage] = React.useState(100);
   const [rows, setRows] = React.useState([]);
   const [pageCount, setPageCount] = React.useState(0);
   const [deleted, setDeleted] = React.useState(false)
@@ -73,7 +73,7 @@ export default observer(function BaseTable() {
       
       <MyTableContainer>
         
-        <Table stickyHeader aria-label="sticky table">
+        <Table stickyHeader aria-label="sticky table" size="small">
           <MyTableHeader/>
           {Object.keys(rows).length === 0 ? (
               <div>Loading...</div>

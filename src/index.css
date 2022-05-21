@@ -32,3 +32,7 @@ ul li {
 a{
   text-decoration: none
 }
+
+.css-t96nbe-MuiTableRow-root:last-child td, .css-t96nbe-MuiTableRow-root:last-child th{
+  padding: 0
+}

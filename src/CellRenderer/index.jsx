@@ -1,5 +1,13 @@
 import React, { useMemo, memo } from 'react'
 import codes from '../codes.json'
+import styled from 'styled-components'
+
+const CellText = styled.span`
+    width: 100%;
+    display: inline-block;
+    height: 38px;
+    overflow: hidden;
+`;
 
 function CellRenderer({content_table_id, value}) {
 
@@ -21,7 +29,7 @@ function CellRenderer({content_table_id, value}) {
         
     }, [])
 
-    return <span>{component_text}</span>;
+    return <CellText>{component_text}</CellText>;
 }
 
 export default memo(CellRenderer)

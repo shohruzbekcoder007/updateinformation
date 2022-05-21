@@ -29,7 +29,7 @@ export default function MyGrid(props) {
     <React.Fragment>
         <Box>
             <BaseTable/>
-            <TemporaryDrawer/>
+            {/* <TemporaryDrawer/> */}
         </Box>
     </React.Fragment>
   );
