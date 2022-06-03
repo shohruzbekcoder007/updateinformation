@@ -6,20 +6,24 @@ import TextField from "@mui/material/TextField";
 import Snackbar from "@mui/material/Snackbar";
 import IconButton from "@mui/material/IconButton";
 import DeleteIcon from "@mui/icons-material/Delete";
-import SaveIcon from "@mui/icons-material/Save";
 import CellRenderer from "../../CellRenderer";
 import { globalState, getTableOrder, setDeletedRowId } from "../../globalState";
 import MuiAlert from "@mui/material/Alert";
 import axios from "../../baseUrl";
 import NoteAltIcon from "@mui/icons-material/NoteAlt";
 import DisabledByDefaultIcon from '@mui/icons-material/DisabledByDefault';
+import AlertDialog from '../AlertDialog'
+import { main_logic } from '../../logic/main_logic'
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
 });
 
 export default function RenderRow({ row }) {
+
   const [edit, setEdit] = useState(false);
+  const [isDeleted, setIsDeleted] = useState(false);
+
   ///Snackbar///
   const [state, setState] = useState({
     open: false,
@@ -41,7 +45,6 @@ export default function RenderRow({ row }) {
   }, [globalState.tableOrder]);
 
   const updatePerson = (id, updateRow) => {
-    console.log(id, updateRow);
     axios
       .put(`/v1/${id}/update_person/`, updateRow, {
         headers: {
@@ -50,9 +53,7 @@ export default function RenderRow({ row }) {
         },
       })
       .then((response) => {
-        console.log(response.data);
         if (response.data && response.data.message == "1") {
-          console.log("salom");
           setState({
             open: true,
             vertical: "bottom",
@@ -75,7 +76,6 @@ export default function RenderRow({ row }) {
         deleteRow,
       })
       .then((response) => {
-        console.log(response);
         setIsDeleted(true);
         setDeletedRowId(id);
       })
@@ -84,12 +84,13 @@ export default function RenderRow({ row }) {
       });
   };
 
-  const changeSelect = (name, arg) => {
-    console.log(arg);
-    row[name] = arg;
+  const changeSelect = (label, arg) => {
+    row[label] = arg;
   };
 
-  const [isDeleted, setIsDeleted] = useState(false);
+  const changeLogic = () => {
+    return main_logic(row);
+  }
 
   return (
     <>
@@ -101,7 +102,7 @@ export default function RenderRow({ row }) {
       >
         <Alert onClose={handleClose} severity="success" sx={{ width: "100%" }}>
           <i>
-            <b>{row.first_name_last_name}</b>
+            <b>{row.first_label_last_label}</b>
           </i>{" "}
           ma'lumotlari o'zgartirildi!
         </Alert>
@@ -115,36 +116,29 @@ export default function RenderRow({ row }) {
                 (!edit)?
                 <>
                     <IconButton
-                    aria-label="delete"
-                    onClick={() => {
-                        deletePerson(row.id, row);
-                    }}
+                      aria-label="delete"
+                      onClick={() => {
+                          deletePerson(row.id, row);
+                      }}
                     >
                     <DeleteIcon color="secondary" />
                     </IconButton>
                     <IconButton
-                    aria-label="delete"
-                    onClick={() => {
-                        setEdit(!edit);
-                    }}
+                      aria-label="delete"
+                      onClick={() => {
+                          setEdit(!edit);
+                      }}
                     >
                     <NoteAltIcon color="disabled" />
                     </IconButton>
                 </>:
                 <>
+                    <AlertDialog changeLogic={changeLogic} updatePerson={() => {updatePerson(row.id, row)}}/>
                     <IconButton
-                    aria-label="delete"
-                    onClick={() => {
-                        updatePerson(row.id, newRow);
-                    }}
-                    >
-                    <SaveIcon color="primary" />
-                    </IconButton>
-                    <IconButton
-                    aria-label="delete"
-                    onClick={() => {
-                        setEdit(!edit);
-                    }}
+                      aria-label="delete"
+                      onClick={() => {
+                          setEdit(!edit);
+                      }}
                     >
                     <DisabledByDefaultIcon color="disabled" />
                     </IconButton>
@@ -152,45 +146,48 @@ export default function RenderRow({ row }) {
             }
           </TableCell>
           {order.map((elem) => {
-            if (edit === false) {
-              return (
-                <TableCell>
-                  <CellRenderer
-                    content_table_id={elem.content_table_id}
-                    value={row[elem.text]}
-                  />
-                </TableCell>
-              );
-            } else {
-              if (elem.select) {
+            if(elem.checked){
+              if (edit === false) {
                 return (
-                  <TableCell key={elem.content_table_id} align="right">
-                    <SelectSmall
+                  <TableCell key={elem.content_table_id}>
+                    <CellRenderer
                       content_table_id={elem.content_table_id}
-                      selectedOption={row[elem.text]}
-                      changeSelect={(arg) => {
-                        changeSelect(elem.text, arg);
-                      }}
+                      value={row[elem.text]}
                     />
                   </TableCell>
                 );
               } else {
-                return (
-                  <TableCell key={elem.content_table_id} align="right">
-                    <TextField
-                      id="standard-multiline-flexible"
-                      multiline
-                      maxRows={4}
-                      defaultValue={row[elem.text] || ""}
-                      onChange={(event) => {
-                        newRow[elem.text] = event.target.value;
-                      }}
-                      variant="standard"
-                    />
-                  </TableCell>
-                );
+                if (elem.select) {
+                  return (
+                    <TableCell key={elem.content_table_id}>
+                      <SelectSmall
+                        content_table_id={elem.content_table_id}
+                        selectedOption={row[elem.text]}
+                        changeSelect={(arg) => {
+                          changeSelect(elem.text, arg);
+                        }}
+                      />
+                    </TableCell>
+                  );
+                } else {
+                  return (
+                    <TableCell key={elem.content_table_id}>
+                      <TextField
+                        id="standard-multiline-flexible"
+                        multiline
+                        maxRows={4}
+                        defaultValue={row[elem.text] || ""}
+                        onChange={(event) => {
+                          newRow[elem.text] = event.target.value;
+                        }}
+                        variant="standard"
+                      />
+                    </TableCell>
+                  );
+                }
               }
             }
+            
           })}
         </GroupItemTableRow>
       )}

@@ -7,14 +7,17 @@ import { MyTableContainer } from "../styles";
 import MyTableHeader from "../MyTableHeader";
 import MyTableRow from "../MyTableRow/MyTableRow";
 import { observer } from "mobx-react";
-import { globalState } from '../../globalState'
+import { globalState } from '../../globalState';
+import Backdrop from '@mui/material/Backdrop';
+import CircularProgress from '@mui/material/CircularProgress';
 
 export default observer(function BaseTable() {
+
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(100);
   const [rows, setRows] = React.useState([]);
   const [pageCount, setPageCount] = React.useState(0);
-  const [deleted, setDeleted] = React.useState(false)
+  const [deleted, setDeleted] = React.useState(false);
 
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
@@ -34,38 +37,16 @@ export default observer(function BaseTable() {
         },
       })
       .then((response) => {
-        console.log("ishladim man")
         setRows(response.data.results);
-        setPageCount(parseInt(response.data.count / rowsPerPage) + 1);
+        setPageCount(response.data.count);
       })
       .catch((error) => {
         console.log(error.message);
       });
-  }, [rowsPerPage, page]);
+  }, [rowsPerPage, page, globalState.searchInputsQuestion]);
 
   React.useEffect(() => {
-    setPage(0)
-    axios
-      .get(`/v1/?length=${rowsPerPage}&start=${page * rowsPerPage}` + globalState.searchInputsQuestion, {
-        headers: {
-          Authorization: `Bearer ${sessionStorage.getItem("access_token")}`,
-          "Content-Type": "application/json",
-        },
-      })
-      .then((response) => {
-        console.log("ishladim man")
-        setRows(response.data.results);
-        setPageCount(parseInt(response.data.count / rowsPerPage) + 1);
-      })
-      .catch((error) => {
-        console.log(error.message);
-      });
-  }, [globalState.searchInputsQuestion]);
-
-  React.useEffect(() => {
-    console.log("uchirilgan row bor")
     setDeleted(globalState.deletedRowId)
-    console.log(globalState.deletedRowId)
   },[globalState.deletedRowId]);
 
   return (
@@ -75,16 +56,21 @@ export default observer(function BaseTable() {
         
         <Table stickyHeader aria-label="sticky table" size="small">
           <MyTableHeader/>
-          {Object.keys(rows).length === 0 ? (
-              <div>Loading...</div>
-          ) : (
+          {/* {Object.keys(rows).length === 0 ? (
+            <Backdrop
+              sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+              open={true}
+            >
+              <CircularProgress color="inherit" /> //loadingpopover
+            </Backdrop>
+          ) : ( */} 
             <TableBody>
               {rows.map((row) => {
                 if(deleted != row.id)
                   return <MyTableRow row={row} key={row.id} />
               })}
             </TableBody>
-          )}
+          {/* )} */}
         </Table>
       </MyTableContainer>
       <TablePagination

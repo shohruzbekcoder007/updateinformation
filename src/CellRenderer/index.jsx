@@ -4,9 +4,12 @@ import styled from 'styled-components'
 
 const CellText = styled.span`
     width: 100%;
+    height: 100%;
     display: inline-block;
-    height: 38px;
+    height: 30px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 `;
 
 function CellRenderer({content_table_id, value}) {
@@ -22,14 +25,17 @@ function CellRenderer({content_table_id, value}) {
         let answerResalt = results.answers.find(elem => elem.id == value)
         
         if(answerResalt !== undefined){
-            return answerResalt.name_uz
+            return answerResalt.label_uz
         }
-
         return value
         
     }, [])
-
-    return <CellText>{component_text}</CellText>;
+    if(component_text.length > 20){
+        return <CellText>{component_text.slice(0,20)}...</CellText>;
+    }else{
+        if(component_text.length === 0) return <CellText>---</CellText>
+        return <CellText>{component_text}</CellText>;
+    }
 }
 
 export default memo(CellRenderer)

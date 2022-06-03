@@ -30,7 +30,7 @@ const DragAndDropList = () => {
           key={index}
           index={index}
           id={card.id}
-          text={card.name_savol}
+          text={card.label}
           moveCard={moveCard}
         />
       )

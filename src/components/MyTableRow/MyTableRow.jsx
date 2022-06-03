@@ -24,12 +24,16 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   "&:nth-of-type(odd)": {
     backgroundColor: theme.palette.action.hover,
     td: {
-      minWidth: 220,
+      minWidth: 150,
+      padding: "0 5px",
+      lineHeight: 1
     },
   },
   "&:nth-of-type(even)": { 
     td: {
-      minWidth: 220,
+      minWidth: 150,
+      padding: "0 5px",
+      lineHeight: 1
     },
   },
   "&:last-child td, &:last-child th": {
@@ -41,7 +45,6 @@ export default observer(function MyTableRow({ row }) {
 
   const [open, setOpen] = React.useState(false)
   const [order, setOrder] = React.useState(getTableOrder())
-  console.log("render")
   
   React.useEffect(() => {
     setOrder(getTableOrder())
@@ -68,11 +71,13 @@ export default observer(function MyTableRow({ row }) {
         </TableCell>
         {
           order.map((elem) => {
-            return (
-              <StyledTableCell align="right" key={elem.content_table_id}>
-                <CellRenderer content_table_id={elem.content_table_id} value={row[elem.text]}/>
-              </StyledTableCell>
-            )
+            if(elem.checked == true){
+              return (
+                <StyledTableCell key={elem.content_table_id}>
+                  <CellRenderer content_table_id={elem.content_table_id} value={row[elem.text]}/>
+                </StyledTableCell>
+              )
+            }
           })
         }
         

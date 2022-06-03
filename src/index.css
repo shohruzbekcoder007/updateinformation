@@ -11,6 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #F6F9FF;
+  line-height: 1;
 }
 
 code {
@@ -35,4 +36,29 @@ a{
 
 .css-t96nbe-MuiTableRow-root:last-child td, .css-t96nbe-MuiTableRow-root:last-child th{
   padding: 0
+}
+
+.css-vwz70a-MuiTableRow-root:last-child td, .css-vwz70a-MuiTableRow-root:last-child th{
+  padding: 0 5px 10px 0;
+}
+
+td, th { 
+  padding: 0 5px;
+}
+
+.table-header-cell { 
+  cursor: pointer;
+  transition: all 0.5
+}
+
+.table-header-cell:hover .table-header-cell-popover{
+  display: inline-block;
+}
+
+.table-header-cell-popover{
+  display: none;
+}
+
+.MuiAutocomplete-listbox{
+  height: 150px;
 }

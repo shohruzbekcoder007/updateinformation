@@ -16,7 +16,7 @@ export default function SearchInputComp(props) {
 
     const newTimer = setTimeout(() => {
       setSearchInputsObject(props.faild, inputValue)
-    }, 500);
+    }, 1000);
 
     setTimer(newTimer);
 

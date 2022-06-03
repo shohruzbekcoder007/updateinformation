@@ -46,7 +46,7 @@ export default function CustomizedSelects({ content_table_id, selectedOption, ch
   }, []);
 
   return (
-      <FormControl style={{maxWidth: 300}} variant="standard">
+      <FormControl style={{maxWidth: 150}} variant="standard">
         <Select
           labelId="demo-customized-select-label"
           id="demo-customized-select"
@@ -60,7 +60,7 @@ export default function CustomizedSelects({ content_table_id, selectedOption, ch
           {options.map((option) => {
             return (
               <MenuItem value={option.id} key={option.id}>
-                {option.name}
+                {option.label}
               </MenuItem>
             );
           })}

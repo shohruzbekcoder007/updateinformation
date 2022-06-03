@@ -25,7 +25,7 @@ export default function CustomizedTables(props) {
   return (
     <>
       {rows.length != 0 ? (
-        rows.map((row) => <RenderRow row={row} />)
+        rows.map((row, index) => <RenderRow row={row} key={index}/>)
       ) : (
         <div>Loading.....</div>
       )}
