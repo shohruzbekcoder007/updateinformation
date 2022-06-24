@@ -26,6 +26,7 @@ export default function SearchInputComp(props) {
     <SearchInput
       type="text"
       disabled={props.disabled}
+      defaultValue={props.searchField}
       onChange={(event) => {
         setInputValue(event.target.value);
       }}

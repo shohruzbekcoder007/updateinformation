@@ -42,7 +42,7 @@ export default function CustomizedSelects({ content_table_id, selectedOption, ch
   };
 
   const options = useMemo(() => {
-    return codes.Z1.find( (element) => element.content_table_id == content_table_id ).answers;
+    return codes.Z1.find( (element) => element.content_table_id == content_table_id )?.answers || [];
   }, []);
 
   return (

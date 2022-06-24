@@ -1,14 +1,14 @@
-import React, { Suspense } from "react";
-import TableCell, { tableCellClasses } from "@mui/material/TableCell";
-import TableRow from "@mui/material/TableRow";
-import { styled } from "@mui/material/styles";
-import IconButton from "@mui/material/IconButton";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
-import { getTableOrder, globalState } from "../../globalState";
-import { observer } from "mobx-react";
-import CellRenderer from "../../CellRenderer";
-import CustomizedTables from "../CustomizedTables";
+import React, { Suspense } from "react"
+import TableCell, { tableCellClasses } from "@mui/material/TableCell"
+import TableRow from "@mui/material/TableRow"
+import { styled } from "@mui/material/styles"
+import IconButton from "@mui/material/IconButton"
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown"
+import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp"
+import { getTableOrder, globalState } from "../../globalState"
+import { observer } from "mobx-react"
+import CellRenderer from "../../CellRenderer"
+import CustomizedTables from "../CustomizedTables"
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -60,14 +60,16 @@ export default observer(function MyTableRow({ row }) {
           "& > *": { borderBottom: "unset" },
         }}
       >
-        <TableCell>
-          <IconButton
-            aria-label="expand row"
-            size="small"
-            onClick={() => setOpen(!open)}
-          >
-            {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
-          </IconButton>
+        <TableCell align="center">
+          <div>
+            <IconButton
+              aria-label="expand row"
+              size="small"
+              onClick={() => setOpen(!open)}
+            >
+              {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
+            </IconButton>
+          </div>
         </TableCell>
         {
           order.map((elem) => {

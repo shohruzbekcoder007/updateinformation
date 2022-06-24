@@ -13,13 +13,15 @@ import axios from "../../baseUrl";
 import NoteAltIcon from "@mui/icons-material/NoteAlt";
 import DisabledByDefaultIcon from '@mui/icons-material/DisabledByDefault';
 import AlertDialog from '../AlertDialog'
+import CachedIcon from '@mui/icons-material/Cached'
 import { main_logic } from '../../logic/main_logic'
+import AlertDialogDelete from "../AlertDialogDelete";
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
 });
 
-export default function RenderRow({ row }) {
+export default function RenderRow({row}) {
 
   const [edit, setEdit] = useState(false);
   const [isDeleted, setIsDeleted] = useState(false);
@@ -115,32 +117,38 @@ export default function RenderRow({ row }) {
             {
                 (!edit)?
                 <>
-                    <IconButton
+                    {/* <IconButton
                       aria-label="delete"
                       onClick={() => {
                           deletePerson(row.id, row);
                       }}
                     >
-                    <DeleteIcon color="secondary" />
-                    </IconButton>
+                    <DeleteIcon sx={{width: 23, height: 23}} color="secondary" />
+                    </IconButton> */}
+                    <AlertDialogDelete deletePersonFunc={() => { deletePerson(row.id, row); }}/>
                     <IconButton
                       aria-label="delete"
                       onClick={() => {
                           setEdit(!edit);
                       }}
                     >
-                    <NoteAltIcon color="disabled" />
+                    <NoteAltIcon sx={{width: 23, height: 23}} color="disabled" />
                     </IconButton>
                 </>:
                 <>
                     <AlertDialog changeLogic={changeLogic} updatePerson={() => {updatePerson(row.id, row)}}/>
+                    {/* <IconButton
+                      aria-label="delete"
+                    >
+                      <CachedIcon sx={{width: 23, height: 23}} color="disabled" />
+                    </IconButton> */}
                     <IconButton
                       aria-label="delete"
                       onClick={() => {
                           setEdit(!edit);
                       }}
                     >
-                    <DisabledByDefaultIcon color="disabled" />
+                      <DisabledByDefaultIcon sx={{width: 23, height: 23}} color="disabled" />
                     </IconButton>
                 </>
             }

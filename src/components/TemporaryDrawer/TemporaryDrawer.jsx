@@ -6,6 +6,9 @@ import DragAndDropList from './DragAndDropList';
 import Checkboxes from '../Checkboxes';
 import { ModalTitle, ModalBody } from '../styles'
 import SearchingGrid from '../SearchingGrid';
+import List from '@mui/material/List';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemText from '@mui/material/ListItemText';
 
 export default function TemporaryDrawer() {
   const [state, setState] = React.useState({
@@ -14,6 +17,12 @@ export default function TemporaryDrawer() {
     bottom: false,
     right: false,
   });
+
+  const [selectedIndex, setSelectedIndex] = React.useState(1);
+
+  const handleListItemClick = (event, index) => {
+    setSelectedIndex(index);
+  };
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
@@ -34,14 +43,14 @@ export default function TemporaryDrawer() {
   );
 
   return (
-    <div style={{position: "fixed", left: "30px", bottom: "20px", width: "50%", height: "30px",  zIndex: "100"}}>
-      {['left', 'right', 'top'].map((anchor) => {
+    <div style={{paddingTop: "20px"}}>
+      {['left', 'right', 'top'].map((anchor, index) => {
         let text = "text";
         if(anchor === "left") text = "columnes"
         if(anchor === "right") text = "tartib"
         if(anchor === "top") text = "saralash"
         return (<React.Fragment key={anchor}>
-            <Button onClick={toggleDrawer(anchor, true)}>{text}</Button>
+            <Button onClick={toggleDrawer(anchor, true)} sx={{width: "100%"}}>{text}</Button>
             <Drawer
               anchor={anchor}
               open={state[anchor]}

@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import Slide from '@mui/material/Slide';
 import BaseTable from './../BaseTable';
 import TemporaryDrawer from '../TemporaryDrawer/TemporaryDrawer';
+import Sidebar from '../Sidebar';
 
 function HideOnScroll(props) {
   const { children, window } = props;
@@ -27,9 +28,9 @@ HideOnScroll.propTypes = {
 export default function MyGrid(props) {
   return (
     <React.Fragment>
-        <Box>
+        <Box style={{display: 'flex', flexDirection: 'row'}}>
+            <Sidebar/>
             <BaseTable/>
-            <TemporaryDrawer/>
         </Box>
     </React.Fragment>
   );

@@ -1,15 +1,16 @@
-import * as React from "react";
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TablePagination from "@mui/material/TablePagination";
-import axios from "../../baseUrl";
-import { MyTableContainer } from "../styles";
-import MyTableHeader from "../MyTableHeader";
-import MyTableRow from "../MyTableRow/MyTableRow";
-import { observer } from "mobx-react";
-import { globalState } from '../../globalState';
-import Backdrop from '@mui/material/Backdrop';
-import CircularProgress from '@mui/material/CircularProgress';
+import * as React from "react"
+import axios from "../../baseUrl"
+import { observer } from "mobx-react"
+import Table from "@mui/material/Table"
+import { MyTableContainer } from "../styles"
+import MyTableHeader from "../MyTableHeader"
+import Backdrop from '@mui/material/Backdrop'
+import { globalState } from '../../globalState'
+import TableBody from "@mui/material/TableBody"
+import MyTableRow from "../MyTableRow/MyTableRow"
+import TablePagination from "@mui/material/TablePagination"
+import CircularProgress from '@mui/material/CircularProgress'
+import { TableWrapper } from './styles'
 
 export default observer(function BaseTable() {
 
@@ -37,6 +38,7 @@ export default observer(function BaseTable() {
         },
       })
       .then((response) => {
+        console.log(response);
         setRows(response.data.results);
         setPageCount(response.data.count);
       })
@@ -50,27 +52,25 @@ export default observer(function BaseTable() {
   },[globalState.deletedRowId]);
 
   return (
-    <div sx={{ width: "100%", overflow: "hidden" }}>
-      
+    <TableWrapper>
       <MyTableContainer>
-        
         <Table stickyHeader aria-label="sticky table" size="small">
           <MyTableHeader/>
-          {/* {Object.keys(rows).length === 0 ? (
+          {Object.keys(rows).length === 0 ? (
             <Backdrop
               sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
               open={true}
             >
-              <CircularProgress color="inherit" /> //loadingpopover
+              <CircularProgress color="inherit" />
             </Backdrop>
-          ) : ( */} 
+          ) : ( 
             <TableBody>
               {rows.map((row) => {
                 if(deleted != row.id)
                   return <MyTableRow row={row} key={row.id} />
               })}
             </TableBody>
-          {/* )} */}
+          )} 
         </Table>
       </MyTableContainer>
       <TablePagination
@@ -82,6 +82,6 @@ export default observer(function BaseTable() {
         onPageChange={handleChangePage}
         onRowsPerPageChange={handleChangeRowsPerPage}
       />
-    </div>
+    </TableWrapper>
   )
 })

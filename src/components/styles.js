@@ -27,6 +27,7 @@ export const TableHeaderTitle = styled.h6`
 
 export const SearchInput = styled.input`
     width: 100%;
+    height: 30px;
 `;
 
 export const GroupItemTableRow = styled(TableRow)`

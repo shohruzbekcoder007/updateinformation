@@ -31,7 +31,7 @@ export default function AlertDialog({updatePerson, changeLogic}) {
             aria-label="delete"
             onClick={handleClickOpen}
         >
-        <SaveIcon color="primary" />
+        <SaveIcon sx={{width: 23, height: 23}} color="disabled" />
         </IconButton>
       <Dialog
         open={open}

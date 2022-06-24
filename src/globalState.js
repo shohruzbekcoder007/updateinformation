@@ -173,35 +173,35 @@ export const globalState = observable({
     {
       content_table_id: 9998,
       text: "name_of_the_country_workplace",
-      label: "name_of_the_country_workplace",
+      label: "Ish joyingiz qaysi mamlakatda",
       select: false,
       checked: false
     },
     {
       content_table_id: 99981,
       text: "name_of_the_nation",
-      label: "name_of_the_nation",
+      label: "Millat nomi",
       select: false,
       checked: false
     },
     {
       content_table_id: 99910,
       text: "name_of_the_region_last_location",
-      label: "name_of_the_region_last_location",
+      label: "Mintaqaning so'nggi joylashuvi",
       select: false,
       checked: true
     },
     {
       content_table_id: 99911,
       text: "name_of_the_region_last_location_soato",
-      label: "name_of_the_region_last_location_soato",
+      label: "Mintaqaning nomi oxirgi joy soato",
       select: false,
       checked: true
     },
     {
       content_table_id: 99912,
       text: "name_place_of_birth",
-      label: "name_place_of_birth",
+      label: "Tug'ilgan joy nomi",
       select: false,
       checked: true
     },
@@ -222,7 +222,7 @@ export const globalState = observable({
     {
       content_table_id: 99913,
       text: "number_of_live_births",
-      label: "number_of_live_births",
+      label: "Tirik tug'ilganlar soni",
       select: false,
       checked: true
     },
@@ -236,7 +236,7 @@ export const globalState = observable({
     {
       content_table_id: 99915,
       text: "other_country_name",
-      label: "other_country_name",
+      label: "Boshqa mamlakat nomi",
       select: false,
       checked: false
     },
@@ -251,14 +251,14 @@ export const globalState = observable({
     {
       content_table_id: 99916,
       text: "period_residence_number_of_months",
-      label: "period_residence_number_of_months",
+      label: "Oylarning davri yashash soni",
       select: false,
       checked: false
     },
     {
       content_table_id: 99917,
       text: "place_of_birth_soato",
-      label: "place_of_birth_soato",
+      label: "Tug'ilgan joy soato",
       select: false,
       checked: true
     },
@@ -286,7 +286,7 @@ export const globalState = observable({
     {
       content_table_id: 99918,
       text: "reason_dont_sport",
-      label: "reason_dont_sport",
+      label: "NImaga siport bilan shug'ullanmaysiz",
       select: false,
       checked: false
     },
@@ -300,7 +300,7 @@ export const globalState = observable({
     {
       content_table_id: 99919,
       text: "serial_number_of_the_main_source_of_income",
-      label: "serial_number_of_the_main_source_of_income",
+      label: "Daromadlarning asosiy manbasining seriya raqami",
       select: false,
       checked: false
     },
@@ -314,14 +314,14 @@ export const globalState = observable({
     {
       content_table_id: 999100,
       text: "specify_the_order_number_of_your_parent",
-      label: "specify_the_order_number_of_your_parent",
+      label: "Ota-onangizning tartibi raqamini belgilang",
       select: false,
       checked: true
     },
     {
       content_table_id: 99920,
       text: "sport_place",
-      label: "sport_place",
+      label: "Sport maydoni",
       select: false,
       checked: false
     },
@@ -335,14 +335,14 @@ export const globalState = observable({
     {
       content_table_id: 99921,
       text: "territoria_name_workplace",
-      label: "territoria_name_workplace",
+      label: "Hudud nomi ish joyi",
       select: false,
       checked: false
     },
     {
       content_table_id: 99922,
       text: "territoria_name_workplace_soato",
-      label: "territoria_name_workplace_soato",
+      label: "Hudud nomi ish joyi soato",
       select: false,
       checked: false
     },
@@ -356,21 +356,21 @@ export const globalState = observable({
     {
       content_table_id: 99924,
       text: "territory_name_soato",
-      label: "territory_name_soato",
+      label: "Hudud nomi soato",
       select: false,
       checked: true
     },
     {
       content_table_id: 99925,
       text: "terrotory_name_main",
-      label: "terrotory_name_main",
+      label: "Asosiy hudud nomi",
       select: false,
       checked: true
     },
     {
       content_table_id: 99926,
       text: "the_reason",
-      label: "the_reason",
+      label: "Sabab",
       select: false,
       checked: false
     },
@@ -384,7 +384,7 @@ export const globalState = observable({
     {
       content_table_id: 99927,
       text: "when_did_you_leave",
-      label: "when_did_you_leave",
+      label: "Qachon ketdingiz",
       select: false,
       checked: false
     },
@@ -398,7 +398,7 @@ export const globalState = observable({
     {
       content_table_id: 99928,
       text: "when_did_you_return",
-      label: "when_did_you_return",
+      label: "Qachon qaytgansiz",
       select: false,
       checked: false
     },
@@ -440,14 +440,14 @@ export const globalState = observable({
     {
       content_table_id: 99929,
       text: "year_name",
-      label: "year_name",
+      label: "Yil",
       select: false,
       checked: false
     },
     {
       content_table_id: 99930,
       text: "year_month",
-      label: "year_month",
+      label: "Oy",
       select: false,
       checked: false
     },
@@ -455,14 +455,14 @@ export const globalState = observable({
     {
       content_table_id: 9991,
       text: "academic_degree",
-      label: "academic_degree",
+      label: "Ilmiy daraja",
       select: false,
       checked: false
     },
     {
       content_table_id: 4,
       text: "amount",
-      label: "amount",
+      label: "Miqdori",
       select: false,
       checked: false
     },
@@ -588,7 +588,6 @@ export const setSearchfields = action((field, value, content_table_id, label) =>
     label,
   })
   globalState.searchfields =  getSearchfields();
-  console.log(toJS(globalState.searchfields))
 })
 
 export const deleteSearchfields = action((content_table_id) => {

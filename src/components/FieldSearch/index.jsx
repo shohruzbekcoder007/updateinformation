@@ -32,7 +32,7 @@ export default observer(function FieldSearch() {
         >
         {fields.map((elem, index) => {
             return (
-            <FieldItem elem={elem}/>
+            <FieldItem elem={elem} key={index}/>
             );
         })}
         </List>
@@ -42,7 +42,6 @@ export default observer(function FieldSearch() {
                 // disabled = {checkedField == null}
                 onClick={() => {
                     searchFieldsToSearchText()
-                    console.log("1")
                 }}
             >
                 Izlash
