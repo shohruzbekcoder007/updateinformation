@@ -27,9 +27,6 @@ export default function AlertDialogDelete({ deletePersonFunc }) {
 
   return (
     <>
-      {/* <Button variant="outlined" onClick={handleClickOpen}>
-        Slide in alert dialog
-      </Button> */}
       <IconButton
         aria-label="delete"
         onClick={handleClickOpen}

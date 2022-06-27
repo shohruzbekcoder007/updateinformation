@@ -71,6 +71,9 @@ export default observer(function MyTableRow({ row }) {
             </IconButton>
           </div>
         </TableCell>
+        <TableCell>
+          {row.id}
+        </TableCell>
         {
           order.map((elem) => {
             if(elem.checked == true){

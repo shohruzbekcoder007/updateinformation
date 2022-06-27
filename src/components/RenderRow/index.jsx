@@ -5,7 +5,6 @@ import SelectSmall from "../SelectSmall";
 import TextField from "@mui/material/TextField";
 import Snackbar from "@mui/material/Snackbar";
 import IconButton from "@mui/material/IconButton";
-import DeleteIcon from "@mui/icons-material/Delete";
 import CellRenderer from "../../CellRenderer";
 import { globalState, getTableOrder, setDeletedRowId } from "../../globalState";
 import MuiAlert from "@mui/material/Alert";
@@ -117,14 +116,6 @@ export default function RenderRow({row}) {
             {
                 (!edit)?
                 <>
-                    {/* <IconButton
-                      aria-label="delete"
-                      onClick={() => {
-                          deletePerson(row.id, row);
-                      }}
-                    >
-                    <DeleteIcon sx={{width: 23, height: 23}} color="secondary" />
-                    </IconButton> */}
                     <AlertDialogDelete deletePersonFunc={() => { deletePerson(row.id, row); }}/>
                     <IconButton
                       aria-label="delete"
@@ -137,11 +128,14 @@ export default function RenderRow({row}) {
                 </>:
                 <>
                     <AlertDialog changeLogic={changeLogic} updatePerson={() => {updatePerson(row.id, row)}}/>
-                    {/* <IconButton
+                    <IconButton
                       aria-label="delete"
+                      onClick={() => {
+                        console.log("salom121")
+                      }}
                     >
                       <CachedIcon sx={{width: 23, height: 23}} color="disabled" />
-                    </IconButton> */}
+                    </IconButton>
                     <IconButton
                       aria-label="delete"
                       onClick={() => {
@@ -152,6 +146,9 @@ export default function RenderRow({row}) {
                     </IconButton>
                 </>
             }
+          </TableCell>
+          <TableCell>
+              {row.id}
           </TableCell>
           {order.map((elem) => {
             if(elem.checked){

@@ -12,13 +12,17 @@ import Typography from '@mui/material/Typography';
 export default function AlertDialog({updatePerson, changeLogic}) {
 
   const [open, setOpen] = React.useState(false);
+  const [color, setColor] = React.useState(false);
 
   const handleClickOpen = () => {
       
-    if(changeLogic().open)
-        setOpen(true);
-    else 
-        updatePerson();
+    if(changeLogic().open){
+      setOpen(true);
+    }
+    else {
+      updatePerson();
+      setColor(true)
+    }
   };
 
   const handleClose = () => {
@@ -28,11 +32,11 @@ export default function AlertDialog({updatePerson, changeLogic}) {
   return (
     <>
       <IconButton
-            aria-label="delete"
-            onClick={handleClickOpen}
-        >
-        <SaveIcon sx={{width: 23, height: 23}} color="disabled" />
-        </IconButton>
+          aria-label="delete"
+          onClick={handleClickOpen}
+      >
+      <SaveIcon sx={{width: 23, height: 23}} color={color?"success":"disabled"} />
+      </IconButton>
       <Dialog
         open={open}
         onClose={handleClose}

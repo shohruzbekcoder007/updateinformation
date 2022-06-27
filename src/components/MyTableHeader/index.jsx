@@ -33,6 +33,9 @@ export default observer(function MyTableHeader() {
             <NavigateNextIcon /> Group
           </TableHeaderTitle>
         </TableCell>
+        <TableCell>
+          <TableHeaderTitle>T/R</TableHeaderTitle>
+        </TableCell>
         {rows.map((elem) => {
           if (elem.checked)
             return (
@@ -50,7 +53,6 @@ export default observer(function MyTableHeader() {
 });
 
 const TableHeaderCell = ({ elem, setFilter, searchField }) => {
-  
   return (
     <TableCell className="table-header-cell">
       {elem.label.length > 10 ? (
@@ -59,17 +61,20 @@ const TableHeaderCell = ({ elem, setFilter, searchField }) => {
         <TableHeaderTitle>{elem.label}</TableHeaderTitle>
       )}
       <TableHeaderTitlePopover className="table-header-cell-popover">
-          {elem.label}
-          {elem.select?<HeaderSearchSelect
+        {elem.label}
+        {elem.select ? (
+          <HeaderSearchSelect
             content_table_id={elem.content_table_id}
             selectedOption={elem.content_table_id}
             faild={elem.text}
-          />:
+          />
+        ) : (
           <SearchInputComp
             setFilter={setFilter}
             faild={elem.text}
             searchField={searchField}
-          />}
+          />
+        )}
       </TableHeaderTitlePopover>
     </TableCell>
   );
